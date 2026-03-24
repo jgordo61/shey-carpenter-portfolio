@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Shey Carpenter</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .about-page {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #ffffff;
+    }
+    .video-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: var(--nav-height);
+    }
+    .about-video {
+      width: min(480px, 90vw);
+      aspect-ratio: 9 / 16;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body class="about-page">
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav-logo">SHEY CARPENTER</a>
+    <ul class="nav-links">
+      <li><a href="index.html">PORTFOLIO</a></li>
+      <li><a href="about.html" class="active">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="video-section">
+    <video class="about-video" src="videos/IMG_4530.MOV" controls playsinline></video>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

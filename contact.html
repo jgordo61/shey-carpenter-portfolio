@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Shey Carpenter</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .contact-page {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #ffffff;
+    }
+    .contact-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: var(--nav-height);
+      gap: 32px;
+    }
+    .contact-block {
+      text-align: center;
+    }
+    .contact-block-label {
+      font-family: var(--font-sans);
+      font-size: 9px;
+      letter-spacing: 0.25em;
+      color: #999;
+      margin-bottom: 6px;
+    }
+    .contact-block-value {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 300;
+      color: #111;
+    }
+    .contact-block-value a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .contact-block-value a:hover {
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body class="contact-page">
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav-logo">SHEY CARPENTER</a>
+    <ul class="nav-links">
+      <li><a href="index.html">PORTFOLIO</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html" class="active">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="contact-section">
+
+    <div class="contact-block">
+      <p class="contact-block-label">CONTACT EMAIL</p>
+      <p class="contact-block-value">
+        <a href="mailto:scarpenter328@gmail.com">scarpenter328@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="contact-block">
+      <p class="contact-block-label">INSTAGRAM</p>
+      <p class="contact-block-value">
+        <a href="https://www.instagram.com/oksweezy_/" target="_blank" rel="noopener">@oksweezy_</a>
+      </p>
+    </div>
+
+    <div class="contact-block">
+      <p class="contact-block-label">BASED IN</p>
+      <p class="contact-block-value">New York</p>
+    </div>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

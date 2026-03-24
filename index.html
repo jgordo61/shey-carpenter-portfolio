@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shey Carpenter — Model</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" as="image" href="images/web/1.JPG">
+  <link rel="preload" as="image" href="images/web/2.JPG">
+  <link rel="preload" as="image" href="images/web/3.JPG">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav-logo">SHEY CARPENTER</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">PORTFOLIO</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- ── Horizontal Gallery ─────────────────────────────────── -->
+    <section class="gallery-section gallery-fullscreen">
+
+      <div class="gallery-track" id="galleryTrack">
+
+        <div class="gallery-item"><img src="images/web/1.JPG" alt="Shey Carpenter" draggable="false" loading="eager"></div>
+        <div class="gallery-item"><img src="images/web/2.JPG" alt="Shey Carpenter" draggable="false" loading="eager"></div>
+        <div class="gallery-item"><img src="images/web/3.JPG" alt="Shey Carpenter" draggable="false" loading="eager"></div>
+        <div class="gallery-item"><img src="images/web/4.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/5.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/6.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/7.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/8.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/9.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/10.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/11.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/12.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/13.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/14.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/15.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/16.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/17.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/18.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/19.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/20.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/21.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/22.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/23.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/24.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/25.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/26.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/27.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/28.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/29.JPG" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/30.jpeg" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/31.jpeg" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/34.jpeg" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+        <div class="gallery-item"><img src="images/web/35.jpeg" alt="Shey Carpenter" draggable="false" loading="lazy"></div>
+
+      </div>
+
+      <!-- Scroll Progress Bar -->
+      <div class="gallery-progress">
+        <div class="gallery-progress-bar" id="galleryProgressBar"></div>
+      </div>
+
+    </section>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&#215;</button>
+    <button class="lightbox-prev" id="lightboxPrev">&#8592;</button>
+    <button class="lightbox-next" id="lightboxNext">&#8594;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Shey Carpenter">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
