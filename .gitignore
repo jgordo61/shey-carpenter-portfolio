@@ -1,0 +1,7 @@
+videos/
+images/*.JPG
+images/*.jpeg
+images/*.jpg
+images/*.MOV
+images/*.mov
+.claude/
