@@ -5,7 +5,9 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(grep -v '^$')",
       "Bash(python3 -c \":*)",
-      "Bash(du -sh \"/Users/josephgordon/Claude/Shey Carpenter Portfolio/images/\"*)"
+      "Bash(du -sh \"/Users/josephgordon/Claude/Shey Carpenter Portfolio/images/\"*)",
+      "Bash(grep -v \"^web$\")",
+      "Bash(grep -Ev \"^web$|\\\\.mov$\")"
     ]
   }
 }
