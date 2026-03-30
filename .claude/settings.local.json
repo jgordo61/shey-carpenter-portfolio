@@ -7,7 +7,12 @@
       "Bash(python3 -c \":*)",
       "Bash(du -sh \"/Users/josephgordon/Claude/Shey Carpenter Portfolio/images/\"*)",
       "Bash(grep -v \"^web$\")",
-      "Bash(grep -Ev \"^web$|\\\\.mov$\")"
+      "Bash(grep -Ev \"^web$|\\\\.mov$\")",
+      "Bash(magick --version)",
+      "Bash(convert --version)",
+      "Bash(ffmpeg -version)",
+      "Bash(sips --help)",
+      "Bash(du -sh \"/Users/josephgordon/Claude/Shey Carpenter Portfolio/images/web/\"*)"
     ]
   }
 }
