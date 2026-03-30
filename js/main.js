@@ -14,23 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const cursorRing = document.getElementById('cursorRing');
 
   if (cursor && cursorRing) {
-    let mouseX = 0, mouseY = 0;
-    let ringX  = 0, ringY  = 0;
-
     document.addEventListener('mousemove', (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-      cursor.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+      const x = e.clientX;
+      const y = e.clientY;
+      cursor.style.transform     = `translate(${x}px, ${y}px)`;
+      cursorRing.style.transform = `translate(${x}px, ${y}px)`;
     });
-
-    // Smooth ring follow
-    function animateRing() {
-      ringX += (mouseX - ringX) * 0.12;
-      ringY += (mouseY - ringY) * 0.12;
-      cursorRing.style.transform = `translate(${ringX}px, ${ringY}px)`;
-      requestAnimationFrame(animateRing);
-    }
-    animateRing();
 
     // Hover state on interactive elements
     const hoverTargets = document.querySelectorAll(
