@@ -68,7 +68,7 @@ a {
   pointer-events: none;
   z-index: 9999;
   will-change: transform;
-  transition: width 0.3s ease, height 0.3s ease, background 0.3s ease;
+  transition: none;
 }
 
 .cursor-ring {
@@ -82,7 +82,7 @@ a {
   pointer-events: none;
   z-index: 9998;
   will-change: transform;
-  transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+  transition: none;
 }
 
 .cursor.is-hovering {

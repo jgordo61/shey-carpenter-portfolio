@@ -22,7 +22,7 @@
     .about-video {
       width: min(480px, 90vw);
       aspect-ratio: 9 / 16;
-      object-fit: cover;
+      border: none;
     }
   </style>
 </head>
@@ -43,7 +43,13 @@
   </nav>
 
   <div class="video-section">
-    <video class="about-video" src="videos/IMG_4530.MOV" controls playsinline></video>
+    <iframe class="about-video"
+      src="https://www.youtube.com/embed/N1CZ_nWQG9M"
+      title="Shey Carpenter"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 
   <script src="js/main.js"></script>
