@@ -82,7 +82,7 @@ a {
   pointer-events: none;
   z-index: 9998;
   will-change: transform;
-  transition: none;
+  transition: transform 0.09s linear;
 }
 
 .cursor.is-hovering {
