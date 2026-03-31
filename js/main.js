@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
       cursorRing.style.transform = `translate(${x}px, ${y}px)`;
     });
 
-    // Hover state on interactive elements
+    // Hover state on interactive elements (not gallery items — too many rapid enter/leave)
     const hoverTargets = document.querySelectorAll(
-      'a, button, .gallery-item, .about-strip-item, input, textarea'
+      'a, button, .about-strip-item, input, textarea'
     );
     hoverTargets.forEach(el => {
       el.addEventListener('mouseenter', () => {

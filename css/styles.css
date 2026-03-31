@@ -86,19 +86,15 @@ a {
 }
 
 .cursor.is-hovering {
-  width: 4px;
-  height: 4px;
-}
-
-.cursor-ring.is-hovering {
-  width: 56px;
-  height: 56px;
   opacity: 0.4;
 }
 
+.cursor-ring.is-hovering {
+  opacity: 0.2;
+}
+
 .cursor.is-dragging {
-  width: 60px;
-  height: 60px;
+  opacity: 0;
   background: transparent;
   border: 1px solid var(--cream);
 }
