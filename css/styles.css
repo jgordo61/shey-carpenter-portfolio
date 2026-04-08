@@ -304,10 +304,6 @@ a {
   height: 100%;
 }
 
-.gallery-fullscreen .gallery-item.landscape {
-  width: calc(100vh * 1.5);
-}
-
 .gallery-fullscreen .gallery-progress {
   margin: 0;
   flex-shrink: 0;
