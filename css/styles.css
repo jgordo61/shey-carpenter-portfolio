@@ -300,7 +300,7 @@ a {
 }
 
 .gallery-fullscreen .gallery-item {
-  width: calc(100vh * 0.6);
+  width: calc(100vh * 1.5);
   height: 100%;
 }
 
