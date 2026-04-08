@@ -300,8 +300,12 @@ a {
 }
 
 .gallery-fullscreen .gallery-item {
-  width: calc(100vh * 0.6);
+  width: calc(100vh * 0.667);
   height: 100%;
+}
+
+.gallery-fullscreen .gallery-item.landscape {
+  width: calc(100vh * 1.5);
 }
 
 .gallery-fullscreen .gallery-progress {
