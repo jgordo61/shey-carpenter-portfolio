@@ -5,3 +5,10 @@ images/*.jpg
 images/*.MOV
 images/*.mov
 .claude/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
