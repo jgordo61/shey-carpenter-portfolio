@@ -352,7 +352,6 @@ a {
   overflow-x: auto;
   cursor: grab;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -ms-overflow-style: none;
   user-select: none;
@@ -364,7 +363,6 @@ a {
 
 .gallery-track.is-dragging {
   cursor: grabbing;
-  scroll-snap-type: none;
 }
 
 .gallery-item {
@@ -372,7 +370,6 @@ a {
   width: 320px;
   height: 480px;
   position: relative;
-  scroll-snap-align: start;
   overflow: hidden;
   background: var(--offblack);
 }
